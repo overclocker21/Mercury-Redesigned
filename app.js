@@ -34,6 +34,20 @@ app.get('/careers', (req, res) => {
     });
 });
 
+//Find Me Home route
+app.get('/findmehome', (req, res) => {
+    res.render('findmehome', {
+        not_home_nav: true
+    });
+});
+
+//Our Work route
+app.get('/ourwork', (req, res) => {
+    res.render('ourwork', {
+        not_home_nav: true
+    });
+});
+
 //Send email route
 app.post('/email', (req, res) => {
 

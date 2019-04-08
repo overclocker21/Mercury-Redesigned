@@ -132,12 +132,26 @@ th, td {
 
 /* -- typography -- */
 
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+  }
+  .card:hover {
+    border-color: green;
+  }
+
 body {
     font-family: 'Varela Round', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
     color: #868F9B;
+    background-color: whitesmoke;
 } 
 
 h1, h2, h3, h4, h5, h6 {
